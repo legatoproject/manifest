@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="legato" fetch="git://github.com/legatoproject" />
+
+    <default remote="legato" revision="refs/tags/16.04.1" sync-j="5" />
+
+    <!-- Legato: framework -->
+    <project path="legato" name="legato-af" groups="default,legato" />
+
+    <!-- Legato: PA Open-Source -->
+    <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" groups="default,legato" />
+    <project path="legato/platformAdaptor/audio" name="legato-PlatformAdaptor-Audio" groups="default,legato" />
+    <project path="legato/platformAdaptor/simu" name="legato-PlatformAdaptor-Simu" groups="default,legato" />
+
+    <!-- Legato: PA QMI (binaries) -->
+    <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" groups="default,legato">
+        <linkfile src="../ar7" dest="legato/platformAdaptor/qmi/bin/ar86" />
+    </project>
+    <project path="legato/platformAdaptor/qmi/bin/ar758x" name="legato-PlatformAdaptor-QmiBin-ar758x" groups="default,legato" />
+    <project path="legato/platformAdaptor/qmi/bin/ar759x" name="legato-PlatformAdaptor-QmiBin-ar759x" groups="default,legato" />
+    <project path="legato/platformAdaptor/qmi/bin/wp85" name="legato-PlatformAdaptor-QmiBin-wp85" groups="default,legato" />
+
+    <!-- Legato: modules -->
+    <project path="legato/modules/WiFi" name="legato-WiFi" groups="default,legato" />
+
+</manifest>
