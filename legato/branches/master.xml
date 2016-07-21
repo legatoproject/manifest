@@ -18,6 +18,7 @@
     </project>
     <project path="legato/platformAdaptor/qmi/bin/ar758x" name="legato-PlatformAdaptor-QmiBin-ar758x" groups="default,legato" />
     <project path="legato/platformAdaptor/qmi/bin/ar759x" name="legato-PlatformAdaptor-QmiBin-ar759x" groups="default,legato" />
+    <project path="legato/platformAdaptor/qmi/bin/wp750x" name="legato-PlatformAdaptor-QmiBin-wp750x" groups="default,legato" />
     <project path="legato/platformAdaptor/qmi/bin/wp85" name="legato-PlatformAdaptor-QmiBin-wp85" groups="default,legato" />
 
     <!-- Legato: modules -->
