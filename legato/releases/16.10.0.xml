@@ -26,4 +26,7 @@
     <project path="legato/modules/Raspi" name="legato-Raspi" groups="default,legato"/>
     <project path="legato/modules/WiFi" name="legato-WiFi" groups="default,legato"/>
 
+    <!-- Legato: 3rd Party -->
+    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" groups="default,legato"/>
+
 </manifest>
