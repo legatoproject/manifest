@@ -27,6 +27,15 @@
     <!-- Legato: modules -->
     <project path="legato/modules/WiFi" name="legato-WiFi" groups="default,legato"/>
     <project path="legato/modules/Raspi" name="legato-Raspi" groups="default,legato"/>
+    <project path="legato/modules/Dualsys" name="legato-Dualsys" groups="default,legato"/>
+
+    <!-- LWM2M Core -->
+    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" groups="default,lwm2m"/>
+    <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,lwm2m" revision="refs/heads/master-swi"/>
+    <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,lwm2m" revision="refs/heads/master-swi"/>
+
+   <!-- AirVantage LWM2M Client -->
+    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="master" groups="default,lwm2m" revision="refs/heads/master"/>
 
     <!-- Legato: 3rd Party -->
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" groups="default,legato"/>
