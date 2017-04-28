@@ -39,5 +39,6 @@
 
     <!-- Legato: 3rd Party -->
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" groups="default,legato"/>
+    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" groups="default,legato"/>
 
 </manifest>
