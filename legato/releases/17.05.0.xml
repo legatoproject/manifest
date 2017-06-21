@@ -18,7 +18,6 @@
     </project>
     <project path="legato/platformAdaptor/qmi/bin/ar758x" name="legato-PlatformAdaptor-QmiBin-ar758x" groups="default,legato"/>
     <project path="legato/platformAdaptor/qmi/bin/ar759x" name="legato-PlatformAdaptor-QmiBin-ar759x" groups="default,legato"/>
-    <project path="legato/platformAdaptor/qmi/bin/wp750x" name="legato-PlatformAdaptor-QmiBin-wp750x" groups="default,legato"/>
     <project path="legato/platformAdaptor/qmi/bin/wp85" name="legato-PlatformAdaptor-QmiBin-wp85" groups="default,legato"/>
     <project path="legato/platformAdaptor/qmi/bin/wp76xx" name="legato-PlatformAdaptor-QmiBin-wp76xx" groups="default,legato"/>
 
@@ -37,5 +36,5 @@
 
     <!-- Legato: 3rd Party -->
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" groups="default,legato"/>
-    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" groups="default,legato"/>
+    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" revision="refs/tags/v2.10" groups="default,legato"/>
 </manifest>
