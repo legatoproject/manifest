@@ -33,7 +33,7 @@
     <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,lwm2m"/>
 
     <!-- AirVantage LWM2M Client -->
-    <project path="legato/apps/platformServices/airVantageConnector" name=" legato-Service-AirVantageConnector" dest-branch="17.05-release" groups="default,lwm2m"/>
+    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="17.05-release" groups="default,lwm2m"/>
 
     <!-- Legato: 3rd Party -->
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" groups="default,legato"/>
