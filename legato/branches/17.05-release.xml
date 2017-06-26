@@ -2,7 +2,7 @@
 <manifest>
     <remote name="legato" fetch="git://github.com/legatoproject"/>
 
-    <default remote="legato" revision="refs/heads/master" sync-j="5"/>
+    <default remote="legato" revision="refs/heads/17.05-release" sync-j="5"/>
 
     <!-- Legato: framework -->
     <project path="legato" name="legato-af" groups="default,legato"/>
@@ -38,6 +38,6 @@
     <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="master" groups="default,lwm2m" revision="refs/heads/master"/>
 
     <!-- Legato: 3rd Party -->
-    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" groups="default,legato"/>
-    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" groups="default,legato"/>
+    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/heads/master"/>
+    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/heads/master"/>
 </manifest>
