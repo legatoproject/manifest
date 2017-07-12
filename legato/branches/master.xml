@@ -34,7 +34,7 @@
     <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,lwm2m" revision="refs/heads/master-swi"/>
     <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,lwm2m" revision="refs/heads/master-swi"/>
 
-   <!-- AirVantage LWM2M Client -->
+    <!-- AirVantage LWM2M Client -->
     <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="master" groups="default,lwm2m" revision="refs/heads/master"/>
 
     <!-- Legato: 3rd Party -->

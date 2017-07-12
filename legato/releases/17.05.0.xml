@@ -11,6 +11,7 @@
     <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" groups="default,legato"/>
     <project path="legato/platformAdaptor/audio" name="legato-PlatformAdaptor-Audio" groups="default,legato"/>
     <project path="legato/platformAdaptor/simu" name="legato-PlatformAdaptor-Simu" groups="default,legato"/>
+    <project path="legato/platformAdaptor/fwupdate" name="legato-PlatformAdaptor-FwUpdate" groups="default,legato"/>
 
     <!-- Legato: PA QMI (binaries) -->
     <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" groups="default,legato">
