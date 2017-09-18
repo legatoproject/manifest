@@ -32,7 +32,7 @@
     <project path="legato/modules/Dualsys" name="legato-Dualsys" groups="default,legato" revision="e06cddf612d8c6d56f19393dd291f2fe0a744cde"/>
 
     <!-- LWM2M Core -->
-    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" groups="default,lwm2m" revision="257e742d36e0dced156ff83a8df903d8d1d8039e"/>
+    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" groups="default,lwm2m"/>
     <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,lwm2m" revision="b1354cd8526ea5800253685c0ce370d1fd0d061d"/>
     <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,lwm2m" revision="a7d99be6d88e0828926a3cfe34b9f68969b30e04"/>
 
