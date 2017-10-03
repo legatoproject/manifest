@@ -43,4 +43,5 @@
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" groups="default,legato"/>
     <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" groups="default,legato" revision="refs/tags/v2.10"/>
     <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" groups="default,legato" revision="refs/tags/2.6"/>
+    <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" groups="default,legato" revision="refs/heads/master-swi"/>
 </manifest>
