@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="legato" fetch="git://github.com/legatoproject"/>
+
+    <default remote="legato" revision="refs/heads/master" sync-j="5"/>
+
+    <!-- Legato: framework -->
+    <project path="legato" name="legato-af" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+
+    <!-- Legato: PA Open-Source -->
+    <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+    <project path="legato/platformAdaptor/audio" name="legato-PlatformAdaptor-Audio" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+    <project path="legato/platformAdaptor/simu" name="legato-PlatformAdaptor-Simu" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+    <project path="legato/platformAdaptor/fwupdate" name="legato-PlatformAdaptor-FwUpdate" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+    <project path="legato/platformAdaptor/dcs/linux" name="legato-PlatformAdaptor-DcsLinux" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+    <project path="legato/platformAdaptor/wdog/linux" name="legato-PlatformAdaptor-WdogLinux" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+
+    <!-- Legato: PA QMI (binaries) -->
+    <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" dest-branch="18.01-release" groups="default,legato,external" revision="refs/heads/18.01-release">
+        <linkfile src="../ar7" dest="legato/platformAdaptor/qmi/bin/ar86"/>
+    </project>
+    <project path="legato/platformAdaptor/qmi/bin/ar758x" name="legato-PlatformAdaptor-QmiBin-ar758x" dest-branch="18.01-release" groups="default,legato,external" revision="refs/heads/18.01-release"/>
+    <project path="legato/platformAdaptor/qmi/bin/ar759x" name="legato-PlatformAdaptor-QmiBin-ar759x" dest-branch="18.01-release" groups="default,legato,external" revision="refs/heads/18.01-release"/>
+    <project path="legato/platformAdaptor/qmi/bin/wp85" name="legato-PlatformAdaptor-QmiBin-wp85" dest-branch="18.01-release" groups="default,legato,external" revision="refs/heads/18.01-release">
+        <linkfile src="../wp85" dest="legato/platformAdaptor/qmi/bin/wp750x"/>
+    </project>
+    <project path="legato/platformAdaptor/qmi/bin/wp76xx" name="legato-PlatformAdaptor-QmiBin-wp76xx" dest-branch="18.01-release" groups="default,legato,external" revision="refs/heads/18.01-release">
+        <linkfile src="../wp76xx" dest="legato/platformAdaptor/qmi/bin/wp77xx"/>
+    </project>
+
+    <!-- Legato: modules -->
+    <project path="legato/modules/WiFi" name="legato-WiFi" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+    <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+    <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="18.01-release" groups="default,legato" revision="refs/heads/18.01-release"/>
+
+    <!-- LWM2M Core -->
+    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="18.01-release" groups="default,legato,lwm2m" revision="refs/heads/18.01-release"/>
+    <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="443a296e308794d469f0fea8c0bb9aa461e4ef95"/>
+    <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/17.10.0"/>
+
+    <!-- AirVantage LWM2M Client -->
+    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="18.01-release" groups="default,legato,lwm2m" revision="refs/heads/18.01-release"/>
+
+    <!-- Legato: 3rd Party -->
+    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="9246fdba7e059cc0371d62b1462f5e687c3bcc64"/>
+    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/v2.10"/>
+    <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/2.6"/>
+    <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/tags/17.09.0"/>
+</manifest>
