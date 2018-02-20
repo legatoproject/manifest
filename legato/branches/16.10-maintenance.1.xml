@@ -27,8 +27,8 @@
     <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/heads/16.10-maintenance.1"/>
 
     <!-- Legato: 3rd Party -->
-    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="9246fdba7e059cc0371d62b1462f5e687c3bcc64"/>
-    <project path="legato/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato" revision="3e3f4ebdf48709c63aa7c3f0560540c538396549"/>
-    <project path="legato/3rdParty/wakaama/examples/shared/tinydtls" name="tinydtls" groups="default,legato" revision="0016138fe3998552eee3987a1c09da43a23c9fb5"/>
+    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/tags/16.10.0"/>
+    <project path="legato/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato" revision="refs/tags/16.10.0"/>
+    <project path="legato/3rdParty/wakaama/examples/shared/tinydtls" name="tinydtls" groups="default,legato" revision="refs/tags/16.10.0"/>
 
 </manifest>

@@ -31,13 +31,13 @@
 
     <!-- LWM2M Core -->
     <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="17.05-release" groups="default,lwm2m" revision="refs/heads/17.05-release"/>
-    <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,lwm2m" revision="eb32df5170cd89d6a7e3abcddd1efbdaf3413c89"/>
-    <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,lwm2m" revision="c9965c5e25557d8dff0558e90194123b292273b1"/>
+    <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,lwm2m" revision="refs/tags/17.05.0"/>
+    <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,lwm2m" revision="refs/tags/17.05.0"/>
 
    <!-- AirVantage LWM2M Client -->
     <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="17.05-release" groups="default,lwm2m" revision="refs/heads/17.05-release"/>
 
     <!-- Legato: 3rd Party -->
-    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="9246fdba7e059cc0371d62b1462f5e687c3bcc64"/>
-    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/v2.10"/>
+    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/tags/16.10.0"/>
+    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/17.05.0"/>
 </manifest>

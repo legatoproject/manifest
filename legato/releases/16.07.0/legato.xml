@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="legato" fetch="git://github.com/legatoproject"/>
+
+    <default remote="legato" revision="refs/heads/master" sync-j="5"/>
+
+    <!-- Legato: framework -->
+    <project path="legato" name="legato-af" dest-branch="master" groups="default,legato" revision="refs/tags/16.07.0"/>
+
+    <!-- Legato: PA Open-Source -->
+    <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" dest-branch="master" groups="default,legato" revision="refs/tags/16.07.0"/>
+    <project path="legato/platformAdaptor/audio" name="legato-PlatformAdaptor-Audio" dest-branch="master" groups="default,legato" revision="refs/tags/16.07.0"/>
+    <project path="legato/platformAdaptor/simu" name="legato-PlatformAdaptor-Simu" dest-branch="master" groups="default,legato" revision="refs/tags/16.07.0"/>
+
+    <!-- Legato: PA QMI (sources) -->
+
+    <!-- Legato: PA QMI (binaries) -->
+    <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" dest-branch="master" groups="default,legato,external" revision="refs/tags/16.07.0">
+        <linkfile src="../ar7" dest="legato/platformAdaptor/qmi/bin/ar86"/>
+    </project>
+    <project path="legato/platformAdaptor/qmi/bin/ar758x" name="legato-PlatformAdaptor-QmiBin-ar758x" dest-branch="master" groups="default,legato,external" revision="refs/tags/16.07.0"/>
+    <project path="legato/platformAdaptor/qmi/bin/ar759x" name="legato-PlatformAdaptor-QmiBin-ar759x" dest-branch="master" groups="default,legato,external" revision="refs/tags/16.07.0"/>
+    <project path="legato/platformAdaptor/qmi/bin/wp750x" name="legato-PlatformAdaptor-QmiBin-wp750x" dest-branch="master" groups="default,legato,external" revision="refs/tags/16.07.0"/>
+    <project path="legato/platformAdaptor/qmi/bin/wp85" name="legato-PlatformAdaptor-QmiBin-wp85" dest-branch="master" groups="default,legato,external" revision="refs/tags/16.07.0"/>
+
+    <!-- Legato: modules -->
+    <project path="legato/modules/WiFi" name="legato-WiFi" dest-branch="master" groups="default,legato" revision="refs/tags/16.07.0"/>
+    <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="master" groups="default,legato" revision="refs/tags/16.07.0"/>
+
+    <!-- Legato: doc management -->
+
+    <!-- Legato: QCT headers -->
+
+</manifest>
