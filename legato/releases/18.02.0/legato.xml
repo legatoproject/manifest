@@ -35,15 +35,15 @@
 
     <!-- LWM2M Core -->
     <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="18.02-release" groups="default,legato,lwm2m" revision="refs/tags/18.02.0"/>
-    <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="839bde22adbd2bd2c1652fe8acadcadf235cdb2d"/>
-    <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="be2a6e6db8f0f3a7a10825dc1b8dc61a45cd22dc"/>
+    <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.02.0"/>
+    <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.02.0"/>
 
     <!-- AirVantage LWM2M Client -->
-    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="18.02-release" groups="default,legato,lwm2m" revision="3c74398a577dd79a37cffb93234df9019e6e6bb3"/>
+    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="18.02-release" groups="default,legato,lwm2m" revision="refs/tags/18.02.0"/>
 
     <!-- Legato: 3rd Party -->
-    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/tags/16.10.0"/>
-    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/17.05.0"/>
-    <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/17.07.0"/>
-    <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/tags/17.09.0"/>
+    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/tags/18.02.0"/>
+    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/18.02.0"/>
+    <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/18.02.0"/>
+    <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/tags/18.02.0"/>
 </manifest>
