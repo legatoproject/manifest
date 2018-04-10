@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <remote name="legato" fetch="."/>
+    <remote name="legato-github" fetch="git://github.com/legatoproject"/>
+
+    <default remote="legato" revision="refs/heads/master" sync-j="5"/>
+</manifest>
