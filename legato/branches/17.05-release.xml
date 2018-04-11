@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <include name="_remotes.xml"/>
+    <remote name="legato" fetch="."/>
+    <remote name="legato-github" fetch="https://github.com/legatoproject"/>
+
+    <default remote="legato" revision="refs/heads/master" sync-j="5"/>
 
     <!-- Legato: framework -->
     <project path="legato" name="legato-af" dest-branch="17.05-release" groups="default,legato" revision="refs/heads/17.05-release" remote="legato-github"/>
