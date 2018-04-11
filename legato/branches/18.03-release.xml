@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="legato" fetch="."/>
-    <remote name="legato-github" fetch="https://github.com/legatoproject"/>
-
-    <default remote="legato" revision="refs/heads/master" sync-j="5"/>
+    <include name="_remotes.xml"/>
 
     <!-- Legato: framework -->
     <project path="legato" name="legato-af" dest-branch="18.03-release" groups="default,legato" revision="refs/heads/18.03-release" remote="legato-github"/>
@@ -36,9 +33,9 @@
 
     <!-- LWM2M Core -->
     <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="18.03-release" groups="default,legato,lwm2m" revision="refs/heads/18.03-release" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="fee335d92baecf68eb0309a10def1a38fe6384a3" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.03.0" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.02.0" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="a524562a5318457d63ec21488c4ccc54202c0436" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.03.0" remote="legato-github"/>
 
     <!-- AirVantage LWM2M Client -->
     <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="18.03-release" groups="default,legato,lwm2m" revision="refs/heads/18.03-release" remote="legato-github"/>
@@ -48,5 +45,5 @@
     <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/17.05.0" remote="legato-github"/>
     <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/17.07.0" remote="legato-github"/>
     <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/tags/17.09.0" remote="legato-github"/>
-    <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="4a8bf89993e85c83f6db759ef03cda3e6edec41d" remote="legato-github"/>
+    <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="refs/tags/18.03.0" remote="legato-github"/>
 </manifest>
