@@ -32,7 +32,7 @@
     <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="18.05-release" groups="default,legato" revision="refs/heads/18.05-release" remote="legato-github"/>
 
     <!-- LWM2M Core -->
-    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="master" groups="default,legato,lwm2m" revision="2766df7fa02a13450187694f57f522e3e7752049" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="18.05-release" groups="default,legato,lwm2m" revision="refs/heads/18.05-release" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="5cc986174c977e63bfee00ccb02846bd8dddb54d" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.02.0" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.03.0" remote="legato-github"/>
