@@ -45,6 +45,6 @@
     <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/17.05.0" remote="legato-github"/>
     <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/17.07.0" remote="legato-github"/>
     <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
-    <project path="legato/3rdParty/lighttpd" name="legato-3rdParty-lighttpd1.4" dest-branch="master" groups="default,legato" revision="653fc6722dd00c4ef5c762f7692050efe13330ec" remote="legato-github"/>
+    <project path="legato/3rdParty/lighttpd" name="legato-3rdParty-lighttpd1.4" dest-branch="master" groups="default,legato" revision="refs/tags/18.05.0" remote="legato-github"/>
     <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 </manifest>
