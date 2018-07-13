@@ -33,9 +33,9 @@
 
     <!-- LWM2M Core -->
     <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="18.06-release" groups="default,legato,lwm2m" revision="refs/heads/18.06-release" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="0e8b44e1ca34ca55cb16cd3568524c1b6c4608c1" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.06.0" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.02.0" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="126bf4bccf107c7015dec8c2f795ae5af08a0d10" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.06.0" remote="legato-github"/>
 
     <!-- AirVantage LWM2M Client -->
     <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="18.06-release" groups="default,legato,lwm2m" revision="refs/heads/18.06-release" remote="legato-github"/>
