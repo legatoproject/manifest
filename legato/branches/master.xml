@@ -40,6 +40,9 @@
     <!-- AirVantage LWM2M Client -->
     <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="master" groups="default,legato,lwm2m" revision="refs/heads/master" remote="legato-github"/>
 
+    <!-- DataHub Service -->
+    <project path="legato/apps/sample/dataHub" name="legato-Service-DataHub" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
+
     <!-- Legato: 3rd Party -->
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/v2.10" remote="legato-github"/>
