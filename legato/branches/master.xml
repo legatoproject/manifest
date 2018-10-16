@@ -31,6 +31,8 @@
     <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 
+    <!-- Legato: imgdiff -->
+
     <!-- LWM2M Core -->
     <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="master" groups="default,legato,lwm2m" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/heads/master-swi" remote="legato-github"/>
