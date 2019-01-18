@@ -55,4 +55,5 @@
     <project path="legato/3rdParty/kconfig-frontends" name="legato-3rdParty-kconfig-frontends" dest-branch="master" groups="default,legato" revision="refs/tags/v4.11.0.1" remote="legato-github"/>
     <project path="legato/3rdParty/paho.mqtt.c" name="legato-3rdParty-paho.mqtt.c" dest-branch="master" groups="default,legato" revision="refs/tags/v1.3.0" remote="legato-github"/>
     <project path="legato/3rdParty/Kconfiglib" name="legato-3rdParty-Kconfiglib" dest-branch="master" groups="default,legato" revision="refs/tags/v9.3.0" remote="legato-github"/>
+    <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="5bdc24262c76ccdd3ea2ebd45c9859dde281ea46" remote="legato-github"/>
 </manifest>
