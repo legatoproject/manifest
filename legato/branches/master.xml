@@ -13,6 +13,7 @@
     <project path="legato/platformAdaptor/dcs/linux" name="legato-PlatformAdaptor-DcsLinux" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/platformAdaptor/dcs/lwip" name="legato-PlatformAdaptor-DcsLwip" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/platformAdaptor/wdog/linux" name="legato-PlatformAdaptor-WdogLinux" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
+    <project path="legato/platformAdaptor/trustZone/swi" name="legato-PlatformAdaptor-TzSwi" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 
     <!-- Legato: PA QMI (binaries) [proprietary] -->
     <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" dest-branch="master" groups="default,legato,external,proprietary" revision="refs/heads/master" remote="legato-github">
