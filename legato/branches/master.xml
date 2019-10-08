@@ -45,6 +45,9 @@
     <!-- DataHub Service -->
     <project path="legato/apps/sample/dataHub" name="legato-Service-DataHub" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 
+    <!-- Sensor Framework -->
+    <project path="legato/apps/sample/sensorFramework" name="legato-Apps-SensorFramework" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
+
     <!-- Legato: 3rd Party -->
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
@@ -55,7 +58,7 @@
     <project path="legato/3rdParty/kconfig-frontends" name="legato-3rdParty-kconfig-frontends" dest-branch="master" groups="default,legato" revision="refs/tags/v4.11.0.1" remote="legato-github"/>
     <project path="legato/3rdParty/paho.mqtt.c" name="legato-3rdParty-paho.mqtt.c" dest-branch="master" groups="default,legato" revision="refs/tags/v1.3.0" remote="legato-github"/>
     <project path="legato/3rdParty/Kconfiglib" name="legato-3rdParty-Kconfiglib" dest-branch="master" groups="default,legato" revision="refs/tags/v11.1.0" remote="legato-github"/>
-    <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="refs/tags/19.02.0" remote="legato-github"/>
+    <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="4e22517c60f3c5e691320871956edede15459ae3" remote="legato-github"/>
     <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/qemu" name="qemu" dest-branch="master" groups="notdefault,legato,qemu" revision="refs/heads/master" remote="legato-github"/>
 </manifest>
