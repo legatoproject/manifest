@@ -61,4 +61,7 @@
     <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="4e22517c60f3c5e691320871956edede15459ae3" remote="legato-github"/>
     <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/qemu" name="qemu" dest-branch="master" groups="notdefault,legato,qemu" revision="refs/heads/master" remote="legato-github"/>
+
+    <!-- Legato Tools -->
+
 </manifest>
