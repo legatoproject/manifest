@@ -35,15 +35,15 @@
 
     <!-- LWM2M Core -->
     <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="19.11-release" groups="default,legato,lwm2m" revision="refs/heads/19.11-release" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/heads/master-swi" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/heads/master-swi" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/heads/master-swi" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="3e172e89f9d9f1853be69d242df4cc03985dcee5" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="6e5b12a254a5923694d869110ede01105f80b866" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/19.04.0" remote="legato-github"/>
 
     <!-- AirVantage LWM2M Client -->
-    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="19.11-release" groups="default,legato,lwm2m" revision="refs/heads/master" remote="legato-github"/>
+    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="19.11-release" groups="default,legato,lwm2m" revision="refs/heads/19.11-release" remote="legato-github"/>
 
     <!-- DataHub Service -->
-    <project path="legato/apps/sample/dataHub" name="legato-Service-DataHub" dest-branch="19.11-release" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
+    <project path="legato/apps/sample/dataHub" name="legato-Service-DataHub" dest-branch="19.11-release" groups="default,legato" revision="refs/heads/19.11-release" remote="legato-github"/>
 
     <!-- Sensor Framework -->
     <project path="legato/apps/sample/sensorFramework" name="legato-Apps-SensorFramework" dest-branch="19.11-release" groups="default,legato" revision="refs/heads/19.11-release" remote="legato-github"/>
@@ -63,6 +63,6 @@
     <project path="legato/3rdParty/qemu" name="qemu" dest-branch="master" groups="notdefault,legato,qemu" revision="3698ec7f478878e792864ef4b7490dba8c5eb3ae" remote="legato-github"/>
 
     <!-- Legato Tools -->
-    <project path="legato/tools/linkerReport" name="legato-Tools-LinkerReport" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
+    <project path="legato/tools/linkerReport" name="legato-Tools-LinkerReport" dest-branch="master" groups="default,legato" revision="dc270b27fc0d45e90798f6de82e7a28ca872110e" remote="legato-github"/>
 
 </manifest>
