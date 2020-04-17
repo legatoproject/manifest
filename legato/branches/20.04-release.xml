@@ -34,9 +34,9 @@
     <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="20.04-release" groups="default,legato" revision="refs/heads/20.04-release" remote="legato-github"/>
 
     <!-- LWM2M Core -->
-    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="master" groups="default,legato,lwm2m" revision="67d2a36f82eb9dbb7adfde858a5493db0727125b" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="19cc4c568e9b61e38c8dfbc241a7e9761b1f19e0" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="848186ac1834b1ffee0ad1fd4a2f48344a4d6bb6" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="master" groups="default,legato,lwm2m" revision="refs/tags/20.04.0" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/20.04.0" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/20.04.0" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/19.04.0" remote="legato-github"/>
 
     <!-- AirVantage LWM2M Client -->
@@ -59,10 +59,10 @@
     <project path="legato/3rdParty/paho.mqtt.c" name="legato-3rdParty-paho.mqtt.c" dest-branch="master" groups="default,legato" revision="refs/tags/v1.3.0" remote="legato-github"/>
     <project path="legato/3rdParty/Kconfiglib" name="legato-3rdParty-Kconfiglib" dest-branch="master" groups="default,legato" revision="refs/tags/v11.1.0" remote="legato-github"/>
     <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="refs/tags/19.11.0" remote="legato-github"/>
-    <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="ec8c05701867963c3f6a931d2e6a9afe916f25e5" remote="legato-github"/>
+    <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/tags/20.04.0" remote="legato-github"/>
     <project path="legato/3rdParty/qemu" name="qemu" dest-branch="master" groups="notdefault,legato,qemu" revision="3698ec7f478878e792864ef4b7490dba8c5eb3ae" remote="legato-github"/>
     <project path="legato/3rdParty/mbedtls" name="legato-3rdParty-mbedtls" dest-branch="master" groups="default,legato" revision="refs/tags/mbedtls-2.16.3" remote="legato-github"/>
-    <project path="legato/3rdParty/mbedtls/crypto" name="legato-3rdParty-mbed-crypto" dest-branch="master" groups="default,legato" revision="0b3dd8d0249adb54abc7ad46303f3c22e44aefb7" remote="legato-github"/>
+    <project path="legato/3rdParty/mbedtls/crypto" name="legato-3rdParty-mbed-crypto" dest-branch="master" groups="default,legato" revision="refs/tags/20.04.0" remote="legato-github"/>
 
     <!-- Legato Tools -->
 
