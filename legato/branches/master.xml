@@ -69,4 +69,7 @@
 
     <!-- Legato Tools -->
 
+    <!-- Legato Testing -->
+    <include name="legato-qa/branches/qa-letp/qa.xml"/>
+
 </manifest>

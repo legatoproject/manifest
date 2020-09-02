@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- LeTP -->
+    <project path="letp" name="LeTP" dest-branch="master" groups="default,letp" revision="refs/heads/master" remote="legato-github">
+        <linkfile src="." dest="legato/apps/leTP"/>
+    </project>
+
+    <!-- QA public test -->
+    <project path="letp/testing_target/public" name="Qa-LeTP" dest-branch="master" groups="default,qa-public" revision="refs/heads/master" remote="legato-github"/>
+
+</manifest>
