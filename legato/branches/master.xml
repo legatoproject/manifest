@@ -63,8 +63,7 @@
     <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="refs/tags/19.11.0" remote="legato-github"/>
     <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/qemu" name="qemu" dest-branch="master" groups="notdefault,legato,qemu" revision="refs/heads/master" remote="legato-github"/>
-    <project path="legato/3rdParty/mbedtls" name="legato-3rdParty-mbedtls" dest-branch="master" groups="default,legato" revision="refs/tags/mbedtls-2.16.3" remote="legato-github"/>
-    <project path="legato/3rdParty/mbedtls/crypto" name="legato-3rdParty-mbed-crypto" dest-branch="master" groups="default,legato" revision="refs/tags/20.04.0" remote="legato-github"/>
+    <project path="legato/3rdParty/mbedtls" name="legato-3rdParty-mbedtls" dest-branch="master" groups="default,legato" revision="refs/tags/mbedtls-2.16.8" remote="legato-github"/>
     <project path="legato/3rdParty/iperf" name="legato-3rdParty-iperf" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
 
     <!-- Legato Tools -->
