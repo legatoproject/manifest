@@ -5,5 +5,4 @@
     <!-- LeTP public scripts. -->
     <include name="legato-qa/branches/qa-letp/public.xml"/>
 
-
 </manifest>
