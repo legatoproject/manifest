@@ -3,6 +3,10 @@
     <include name="_remotes.xml"/>
 
     <!-- LeTP public scripts. -->
-    <include name="legato-qa/branches/qa-letp/public.xml"/>
+    <include name="letp/branches/master.xml"/>
+
+    <!-- QA public test -->
+    <project path="letp/testing_target/public" name="Qa-LeTP" dest-branch="master" groups="default,qa-public" revision="refs/heads/master" remote="legato-github"/>
+
 
 </manifest>
