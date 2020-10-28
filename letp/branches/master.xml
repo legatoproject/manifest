@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- LeTP for external users. -->
 <manifest>
     <include name="_remotes.xml"/>
 
