@@ -59,7 +59,7 @@
     <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/3rdParty/kconfig-frontends" name="legato-3rdParty-kconfig-frontends" dest-branch="master" groups="default,legato" revision="refs/tags/v4.11.0.1" remote="legato-github"/>
     <project path="legato/3rdParty/paho.mqtt.c" name="legato-3rdParty-paho.mqtt.c" dest-branch="master" groups="default,legato" revision="refs/tags/v1.3.0" remote="legato-github"/>
-    <project path="legato/3rdParty/paho.mqtt.embedded-c" name="legato-3rdParty-paho.mqtt.embedded-c" dest-branch="master" groups="default,legato" revision="29ab2aa29c5e47794284376d7f8386cfd54c3eed" remote="legato-github"/>
+    <project path="legato/3rdParty/paho.mqtt.embedded-c" name="legato-3rdParty-paho.mqtt.embedded-c" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/Kconfiglib" name="legato-3rdParty-Kconfiglib" dest-branch="master" groups="default,legato" revision="refs/tags/v11.1.0" remote="legato-github"/>
     <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="refs/tags/19.11.0" remote="legato-github"/>
     <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
