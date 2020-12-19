@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="legato" alias="origin" fetch="." pushurl="ssh://master.gerrit.legato.io:29418"/>
+    <remote name="legato" alias="origin" fetch="." pushurl="ssh://master.gerrit.legato:29418"/>
     <remote name="legato-github" fetch="https://github.com/legatoproject"/>
 
     <default remote="legato" revision="refs/heads/master" sync-j="5"/>
