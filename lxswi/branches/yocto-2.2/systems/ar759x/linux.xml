@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Linux -->
+    <include name="lxswi/branches/yocto-2.2/core.xml"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-ref" groups="default,proprietary" revision="refs/heads/yocto-2.2-ref" remote="legato-github"/>
+    <project name="msm-3.18" path="kernel" dest-branch="mdm9x40le31-ref" revision="refs/heads/mdm9x40le31-ref" remote="legato-github"/>
+    <project name="lk" path="lk" dest-branch="mdm9x40le31-swi" revision="refs/heads/mdm9x40le31-swi" remote="legato-github">
+        <linkfile src="." dest="mdm9x40/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
+    </project>
+    <project path="meta-swi-extras/meta-swi-mdm9x40-ar759x-bin/files" name="meta-swi-bin-files-mdm9x40le31" dest-branch="lxswi-yocto-2.2" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-2.2" remote="legato-github"/>
+</manifest>

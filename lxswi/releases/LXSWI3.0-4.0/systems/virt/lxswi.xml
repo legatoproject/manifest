@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/releases/LXSWI3.0-4.0/systems/virt/core.xml"/>
+</manifest>

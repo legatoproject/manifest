@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/releases/LXSWI3.0-3.0/core.xml"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.0-ref" groups="default,proprietary" revision="refs/tags/LXSWI3.0-3.0" remote="legato-github"/>
+</manifest>

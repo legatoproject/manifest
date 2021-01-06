@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <project path="poky" name="poky" upstream="refs/heads/sumo" revision="refs/tags/LXSWI2.5-2.0" dest-branch="sumo" remote="legato-github"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/sumo" revision="refs/tags/LXSWI2.5-2.0" dest-branch="sumo" remote="legato-github"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" revision="refs/tags/LXSWI2.5-2.0" dest-branch="sumo" remote="legato-github"/>
+
+    <!-- SWI -->
+    <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-ref" revision="refs/tags/LXSWI2.5-2.0" remote="legato-github">
+        <linkfile src="repo.mk" dest="Makefile"/>
+    </project>
+</manifest>

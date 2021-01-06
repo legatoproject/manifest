@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- LeTP public scripts. -->
+    <include name="lxswi/releases/LXSWI3.0-4.0/systems/wp85xx/master.xml"/>
+
+    <!-- QA public test -->
+    <project path="letp/testing_target/public" name="Qa-LeTP" dest-branch="master" groups="default,qa-public" revision="a985fa13d4fd87e50eac9f846040bc860dd6e79f" remote="legato-github"/>
+
+
+</manifest>

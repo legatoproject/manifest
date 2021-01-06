@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/releases/LXSWI2.7-1.0/systems/wp77xx/lxswi.xml"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le20" dest-branch="lxswi-yocto-2.7" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI2.7-1.0" remote="legato-github"/>
+    <project path="meta-swi-wp" name="meta-swi-wp" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.7-1.0+wp76xx" remote="legato-github"/>
+    <project path="meta-swi-wp-extras" name="meta-swi-wp-extras" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.7-1.0+wp76xx" remote="legato-github"/>
+</manifest>

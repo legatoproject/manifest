@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Linux -->
+    <include name="lxswi/tags/LXSWI2.2-6.0.rc3/core.xml"/>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/branches/yocto-3.0/core.xml"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.0-ref" groups="default,proprietary" revision="refs/heads/yocto-3.0-ref" remote="legato-github"/>
+    <project name="msm-3.18" path="kernel" dest-branch="mdm9x28le201-ref" revision="refs/heads/mdm9x28le201-ref" remote="legato-github"/>
+    <project name="lk" path="lk" dest-branch="mdm9x28le201-swi" revision="refs/heads/mdm9x28le201-swi" remote="legato-github">
+        <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
+    </project>
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/releases/LXSWI2.7-1.0/systems/ar759x/lxswi.xml"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x40-ar759x-bin/files" name="meta-swi-bin-files-mdm9x40le31" dest-branch="lxswi-yocto-2.7" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI2.7-1.0" remote="legato-github"/>
+    <project path="meta-swi-ar" name="meta-swi-ar" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.7-1.0+ar758x" remote="legato-github"/>
+    <project path="meta-swi-ar-extras" name="meta-swi-ar-extras" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.7-1.0+ar758x" remote="legato-github"/>
+</manifest>

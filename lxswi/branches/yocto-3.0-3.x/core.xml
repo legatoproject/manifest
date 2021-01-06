@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <project path="poky" name="poky" upstream="refs/heads/zeus" revision="a92ae31dc4f1a124fe3d722c7239796d1b37cbc3" dest-branch="zeus" remote="legato-github"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/zeus" revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b" dest-branch="zeus" remote="legato-github"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/zeus" revision="refs/heads/zeus" remote="legato-github"/>
+
+    <!-- SWI -->
+    <project path="meta-swi" name="meta-swi" dest-branch="yocto-3.0-3.x-ref" revision="refs/heads/yocto-3.0-3.x-ref" remote="legato-github">
+        <linkfile src="repo.mk" dest="Makefile"/>
+    </project>
+</manifest>

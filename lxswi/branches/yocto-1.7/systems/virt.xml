@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <include name="lxswi/branches/yocto-1.7/core.xml"/>
+
+    <!-- Legato -->
+    <include name="legato/branches/18.10-release.xml"/>
+</manifest>

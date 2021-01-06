@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/tags/LXSWI2.2-6.0.rc3/core.xml"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-ref" groups="default,proprietary" revision="317b49325667b531fdfd5ea992ea7e88acc1273f" remote="legato-github"/>
+    <project name="msm-3.18" path="kernel" dest-branch="mdm9x28le201-ref" revision="refs/tags/LXSWI2.2-6.0+ar758x" remote="legato-github"/>
+    <project name="lk" path="lk" dest-branch="mdm9x28le201-swi" revision="refs/tags/LXSWI2.2-6.0+ar758x" remote="legato-github">
+        <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
+    </project>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-ar758x-bin/files" name="meta-swi-bin-files-mdm9x28le201" dest-branch="lxswi-master" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI2.2-6.0+ar758x" remote="legato-github"/>
+</manifest>

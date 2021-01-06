@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/branches/yocto-3.0/core.xml"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.0-ref" groups="default,proprietary" revision="refs/heads/yocto-3.0-ref" remote="legato-github"/>
+    <project path="kernel" name="linux-yocto-3.14" dest-branch="standard/swi-mdm9x15-yocto-1.7-ref" revision="refs/heads/standard/swi-mdm9x15-yocto-1.7-ref" remote="legato-github"/>
+    <project path="kernel-meta" name="linux-yocto-3.14" dest-branch="meta-yocto-1.7-ref" revision="refs/heads/meta-yocto-1.7-ref" remote="legato-github"/>
+
+    <!-- mangOH -->
+    <project path="meta-mangoh" name="meta-mangoh" dest-branch="master" groups="default,mangoh" revision="refs/heads/master" remote="legato-github"/>
+    <project path="mangOH/GpioExpander" name="mangOH-GpioExpander" dest-branch="master" groups="default,mangoh" revision="refs/heads/master" remote="legato-github"/>
+</manifest>

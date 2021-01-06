@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Linux -->
+    <include name="lxswi/branches/yocto-2.2/systems/wp85xx/linux.xml"/>
+
+    <!-- Legato -->
+    <include name="legato/branches/master.xml"/>
+</manifest>

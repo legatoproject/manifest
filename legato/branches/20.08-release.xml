@@ -77,13 +77,13 @@
     <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master-swi" groups="default,legato" revision="refs/tags/20.08.0.rc1" remote="legato-github"/>
     <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/2.6" remote="legato-github"/>
     <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/tags/20.08.0.rc1" remote="legato-github"/>
-    <project path="legato/3rdParty/libcbor" name="legato-3rdParty-libcbor" dest-branch="master" groups="default,legato" revision="refs/tags/20.08.0" remote="legato-github"/>
+    <project path="legato/3rdParty/libcbor" name="legato-3rdParty-libcbor" dest-branch="master" groups="default,legato" revision="97b865d8280725f936067ad86673219c1019d101" remote="legato-github"/>
     <project path="legato/3rdParty/lighttpd" name="legato-3rdParty-lighttpd1.4" dest-branch="master" groups="default,legato" revision="refs/tags/lighttpd-1.4.49" remote="legato-github"/>
     <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="20.08-release" groups="default,legato" revision="refs/heads/20.08-release" remote="legato-github"/>
     <project path="legato/3rdParty/kconfig-frontends" name="legato-3rdParty-kconfig-frontends" dest-branch="master" groups="default,legato" revision="refs/tags/v4.11.0.1" remote="legato-github"/>
     <project path="legato/3rdParty/paho.mqtt.c" name="legato-3rdParty-paho.mqtt.c" dest-branch="master" groups="default,legato" revision="refs/tags/v1.3.0" remote="legato-github"/>
     <project path="legato/3rdParty/Kconfiglib" name="legato-3rdParty-Kconfiglib" dest-branch="master" groups="default,legato" revision="refs/tags/v11.1.0" remote="legato-github"/>
-    <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="refs/tags/19.11.0" remote="legato-github"/>
+    <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="4e22517c60f3c5e691320871956edede15459ae3" remote="legato-github"/>
     <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/tags/20.08.0.rc1" remote="legato-github"/>
     <project path="legato/3rdParty/qemu" name="qemu" dest-branch="20.08-release" groups="notdefault,legato,qemu" revision="refs/heads/20.08-release" remote="legato-github"/>
     <project path="legato/3rdParty/mbedtls" name="legato-3rdParty-mbedtls" dest-branch="master" groups="default,legato" revision="refs/tags/mbedtls-2.16.3" remote="legato-github"/>

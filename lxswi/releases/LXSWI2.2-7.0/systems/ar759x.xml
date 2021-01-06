@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Linux -->
+    <include name="lxswi/tags/LXSWI2.2-7.0.rc3/systems/ar759x/linux.xml"/>
+
+    <!-- Legato -->
+    <include name="lxswi/tags/LXSWI2.2-7.0.rc3/systems/ar759x/legato.xml"/>
+</manifest>
