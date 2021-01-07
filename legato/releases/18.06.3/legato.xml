@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- begin '_remotes.xml' -->
-    <remote name="legato" fetch="."/>
-    <remote name="legato-github" fetch="https://github.com/legatoproject"/>
-
-    <default remote="legato" revision="refs/heads/master" sync-j="5"/>
-
-    <!-- end '_remotes.xml' -->
+    <include name="_remotes.xml"/>
 
     <!-- Legato: framework -->
     <project path="legato" name="legato-af" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
 
     <!-- Legato: PA Open-Source -->
-    <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/platformAdaptor/audio" name="legato-PlatformAdaptor-Audio" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
+    <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.0" remote="legato-github"/>
+    <project path="legato/platformAdaptor/audio" name="legato-PlatformAdaptor-Audio" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.01.0" remote="legato-github"/>
     <project path="legato/platformAdaptor/simu" name="legato-PlatformAdaptor-Simu" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/platformAdaptor/fwupdate" name="legato-PlatformAdaptor-FwUpdate" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/platformAdaptor/dcs/linux" name="legato-PlatformAdaptor-DcsLinux" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/platformAdaptor/wdog/linux" name="legato-PlatformAdaptor-WdogLinux" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
+    <project path="legato/platformAdaptor/fwupdate" name="legato-PlatformAdaptor-FwUpdate" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.0" remote="legato-github"/>
+    <project path="legato/platformAdaptor/dcs/linux" name="legato-PlatformAdaptor-DcsLinux" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.01.0" remote="legato-github"/>
+    <project path="legato/platformAdaptor/wdog/linux" name="legato-PlatformAdaptor-WdogLinux" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/17.10.0" remote="legato-github"/>
 
     <!-- Legato: PA QMI (binaries) [proprietary] -->
     <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" dest-branch="18.06-release" groups="default,legato,external,proprietary" revision="refs/tags/18.06.3" remote="legato-github">
@@ -33,24 +27,44 @@
     </project>
 
     <!-- Legato: modules -->
-    <project path="legato/modules/WiFi" name="legato-WiFi" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
+    <project path="legato/modules/WiFi" name="legato-WiFi" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.05.0" remote="legato-github"/>
+    <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.05.0" remote="legato-github"/>
+    <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/17.09.0" remote="legato-github"/>
+
+    <!-- Legato: proprietary apps [proprietary] -->
+    <project path="legato/apps/proprietary/atQmiLinker/bin/wp85" name="legato-Apps-AtQmiLinkerBin-wp85" dest-branch="18.06-release" groups="notdefault,legato,external,proprietary" revision="refs/tags/18.06.2" remote="legato-github">
+        <linkfile src="." dest="legato/apps/proprietary/atQmiLinker/bin/wp750x"/>
+    </project>
+    <project path="legato/apps/proprietary/atQmiLinker/bin/wp76xx" name="legato-Apps-AtQmiLinkerBin-wp76xx" dest-branch="18.06-release" groups="notdefault,legato,external,proprietary" revision="refs/tags/18.06.2" remote="legato-github">
+        <linkfile src="." dest="legato/apps/proprietary/atQmiLinker/bin/wp77xx"/>
+    </project>
+    <project path="legato/apps/proprietary/atAirVantage/bin/wp85" name="legato-Apps-AtAirVantageBin-wp85" dest-branch="18.06-release" groups="notdefault,legato,external,proprietary" revision="refs/tags/18.06.3" remote="legato-github">
+        <linkfile src="." dest="legato/apps/proprietary/atAirVantage/bin/wp750x"/>
+    </project>
+    <project path="legato/apps/proprietary/atAirVantage/bin/wp76xx" name="legato-Apps-AtAirVantageBin-wp76xx" dest-branch="18.06-release" groups="notdefault,legato,external,proprietary" revision="refs/tags/18.06.3" remote="legato-github">
+        <linkfile src="." dest="legato/apps/proprietary/atAirVantage/bin/wp77xx"/>
+    </project>
+    <project path="legato/apps/proprietary/qmiAirVantage/bin/wp85" name="legato-Apps-QmiAirVantageBin-wp85" dest-branch="18.06-release" groups="notdefault,legato,external,proprietary" revision="refs/tags/18.06.2" remote="legato-github">
+        <linkfile src="." dest="legato/apps/proprietary/qmiAirVantage/bin/wp750x"/>
+    </project>
+    <project path="legato/apps/proprietary/qmiAirVantage/bin/wp76xx" name="legato-Apps-QmiAirVantageBin-wp76xx" dest-branch="18.06-release" groups="notdefault,legato,external,proprietary" revision="refs/tags/18.06.2" remote="legato-github">
+        <linkfile src="." dest="legato/apps/proprietary/qmiAirVantage/bin/wp77xx"/>
+    </project>
 
     <!-- LWM2M Core -->
-    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="18.06-release" groups="default,legato,lwm2m" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.06.3" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="18.06-release" groups="default,legato,lwm2m" revision="refs/tags/18.06.0" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.06.0" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.02.0" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/18.04.0.ALT1250" remote="legato-github"/>
 
     <!-- AirVantage LWM2M Client -->
-    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="18.06-release" groups="default,legato,lwm2m" revision="refs/tags/18.06.3" remote="legato-github"/>
+    <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="18.06-release" groups="default,legato,lwm2m" revision="refs/tags/18.06.0" remote="legato-github"/>
 
     <!-- Legato: 3rd Party -->
-    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/3rdParty/lighttpd" name="legato-3rdParty-lighttpd1.4" dest-branch="master" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
-    <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="refs/tags/18.06.3" remote="legato-github"/>
+    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/tags/16.07.2.9xxx" remote="legato-github"/>
+    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/v2.10" remote="legato-github"/>
+    <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/2.6" remote="legato-github"/>
+    <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/tags/17.09.0" remote="legato-github"/>
+    <project path="legato/3rdParty/lighttpd" name="legato-3rdParty-lighttpd1.4" dest-branch="master" groups="default,legato" revision="refs/tags/lighttpd-1.4.49" remote="legato-github"/>
+    <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="refs/tags/18.05.0" remote="legato-github"/>
 </manifest>

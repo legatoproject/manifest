@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <!-- Based on "lxswi/branches/yocto-2.5/core.xml" -->
+    <project path="poky" name="poky" revision="refs/tags/LXSWI2.5-3.0" remote="legato-github"/>
+    <project path="meta-openembedded" name="meta-openembedded" revision="refs/tags/LXSWI2.5-1.0" remote="legato-github"/>
+    <!-- SWI -->
+    <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-swi-wp76xx" revision="refs/tags/SWI9X06Y_02.28.00.00" remote="legato-github">
+        <linkfile src="repo.mk" dest="Makefile"/>
+    </project>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.28.00.00" remote="legato-github"/>
+    <project path="downloads" name="yocto-downloads" dest-branch="2.5" groups="default,cache,prebuilt" revision="refs/tags/SWI9X07Y_02.28.03.05" clone-depth="1" remote="legato-github"/>
+    <!-- end branched core.xml projects -->
+
+    <project name="msm-3.18" path="kernel" dest-branch="mdm9x28le20-swi-wp76xx-SWI9X07Y_02.28.03.00-r13.x" revision="refs/tags/SWI9X07Y_02.28.03.05" remote="legato-github">
+        <linkfile src="arch/arm/mach-msm/sierra" dest="mdm9x28/modem_proc/sierra/opensource" groups="default,internal"/>
+        <linkfile src="arch/arm/mach-msm/sierra" dest="lk/app/aboot/sierra"/>
+    </project>
+    <project name="lk" path="lk" dest-branch="mdm9x28le20-swi-SWI9X07Y_02.28.03.00-r13.x" revision="refs/tags/SWI9X07Y_02.28.02.00" remote="legato-github">
+        <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
+    </project>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.28.03.05" remote="legato-github"/>
+</manifest>
