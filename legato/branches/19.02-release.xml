@@ -2,6 +2,8 @@
 <manifest>
     <include name="_remotes.xml"/>
 
+    <!-- end '_remotes.xml' -->
+
     <!-- Legato: framework -->
     <project path="legato" name="legato-af" dest-branch="19.02-release" groups="default,legato" revision="refs/heads/19.02-release" remote="legato-github"/>
 
