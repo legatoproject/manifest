@@ -5,7 +5,7 @@
     <!-- Yocto -->
     <project path="poky" name="poky" upstream="refs/heads/gatesgarth" revision="refs/heads/gatesgarth" remote="legato-github"/>
     <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/gatesgarth" revision="refs/heads/gatesgarth" remote="legato-github"/>
-    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/gatesgarth" revision="refs/heads/gatesgarth"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/gatesgarth" revision="refs/heads/gatesgarth" remote="legato-github"/>
 
     <!-- SWI -->
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-3.0-ref" revision="refs/heads/yocto-3.0-ref" remote="legato-github">
