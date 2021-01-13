@@ -11,7 +11,7 @@
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-swi-wp76xx" revision="refs/tags/SWI9X06Y_02.35.02.00" remote="legato-github">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.35.00.00" remote="legato-github"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.35.00.00" remote="legato-github-ssh"/>
     <!-- end branched core.xml projects -->
 
     <project name="msm-3.18" path="kernel" dest-branch="mdm9x28le20-swi-wp76xx" revision="refs/tags/SWI9X06Y_02.35.03.00" remote="legato-github">
@@ -20,5 +20,5 @@
     <project name="lk" path="lk" dest-branch="mdm9x28le20-swi" revision="refs/tags/SWI9X06Y_02.33.00.00" remote="legato-github">
         <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.37.07.00" remote="legato-github"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.37.07.00" remote="legato-github-ssh"/>
 </manifest>

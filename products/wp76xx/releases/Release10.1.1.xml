@@ -5,9 +5,8 @@
     <!-- Linux -->
     <include name="mdm9x28/tags/SWI9X07Y_02.18.06.00/linux.xml"/>
     <remove-project name="meta-swi-bin-files-mdm9x28le20"/>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.18.06.00" clone-depth="1" remote="legato-github"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.18.06.00" clone-depth="1" remote="legato-github-ssh"/>
     <remove-project name="yocto-downloads"/>
-    <project path="downloads" name="yocto-downloads" dest-branch="2.2" groups="default,cache,prebuilt" revision="refs/tags/SWI9X07Y_02.18.06.00" clone-depth="1" remote="legato-github"/>
 
     <!-- Legato -->
     <include name="legato/releases/18.06.3/legato.xml"/>

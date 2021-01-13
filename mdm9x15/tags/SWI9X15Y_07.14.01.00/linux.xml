@@ -10,13 +10,12 @@
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.2-swi-wp76xx" revision="refs/tags/SWI9X06Y_02.22.01.00" remote="legato-github">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.22.01.00" remote="legato-github"/>
-    <project path="downloads" name="yocto-downloads" dest-branch="2.2" groups="default,cache,prebuilt" revision="refs/tags/SWI9X15Y_07.14.01.00" clone-depth="1" remote="legato-github"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.22.01.00" remote="legato-github-ssh"/>
     <project path="kernel" name="linux-yocto-3.14" dest-branch="standard/swi-mdm9x15-yocto-wpx5xx" revision="refs/tags/SWI9X15Y_07.13.04.00" remote="legato-github"/>
     <project path="kernel-meta" name="linux-yocto-3.14" dest-branch="meta-yocto-1.7-ref" revision="refs/tags/LXSWI2.2-1.0+wp85xx-meta" remote="legato-github"/>
-    <project path="meta-swi-extras/meta-swi-mdm9x15-bin/files" name="meta-swi-bin-files-mdm9x15le55" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X15Y_07.14.01.00" remote="legato-github"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x15-bin/files" name="meta-swi-bin-files-mdm9x15le55" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X15Y_07.14.01.00" remote="legato-github-ssh"/>
 
     <!-- mangOH -->
-    <project path="meta-mangoh" name="meta-mangoh" dest-branch="master" groups="default,mangoh" revision="ae9a318c00ab1a232203e257b5f6849824c67149" remote="legato-github"/>
-    <project path="mangOH/GpioExpander" name="mangOH-GpioExpander" dest-branch="master" groups="default,mangoh" revision="eddfe628188b60efb32a988dfac9c62f50ef6206" remote="legato-github"/>
+    <project path="meta-mangoh" name="meta-mangoh" dest-branch="master" groups="default,mangoh" revision="ae9a318c00ab1a232203e257b5f6849824c67149"/>
+    <project path="mangOH/GpioExpander" name="mangOH-GpioExpander" dest-branch="master" groups="default,mangoh" revision="eddfe628188b60efb32a988dfac9c62f50ef6206"/>
 </manifest>
