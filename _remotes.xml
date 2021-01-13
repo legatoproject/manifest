@@ -2,7 +2,7 @@
 <manifest>
     <remote name="legato" alias="origin" fetch="."/>
     <remote name="legato-github" fetch="https://github.com/legatoproject/"/>
-    <remote name="legato-github-ssh" fetch="git@github.com:legatoproject/"/>
+    <remote name="legato-github-ssh" fetch="ssh://git@github.com/legatoproject/"/>
 
     <default remote="legato" revision="refs/heads/master" sync-j="5"/>
 </manifest>

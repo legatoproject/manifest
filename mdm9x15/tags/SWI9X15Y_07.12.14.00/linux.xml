@@ -8,12 +8,12 @@
 
     <!-- SWI -->
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-1.7-swi-le55" revision="refs/tags/SWI9X15Y_07.12.14.00" remote="legato-github"/>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-1.7-swi-le55" groups="default,proprietary" revision="refs/tags/SWI9X15Y_07.12.14.00" remote="legato-github-ssh">
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-1.7-swi-le55" groups="default,proprietary" revision="refs/tags/SWI9X15Y_07.12.14.00" clone-depth="100" remote="legato-github-ssh">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
     <project path="kernel" name="linux-yocto-3.14" dest-branch="standard/swi-mdm9x15-yocto-1.7-swi-le55" revision="refs/tags/SWI9X15Y_07.12.14.00" remote="legato-github"/>
     <project path="kernel-meta" name="linux-yocto-3.14" dest-branch="meta-yocto-1.7-swi-le55" revision="refs/tags/SWI9X15Y_07.12.14.00-meta" remote="legato-github"/>
-    <project path="meta-swi-extras/meta-swi-bin/files" name="meta-swi-bin-files-mdm9x15le55" groups="default,proprietary,prebuilt" dest-branch="master" revision="refs/tags/SWI9X15Y_07.12.14.00" remote="legato-github-ssh"/>
+    <project path="meta-swi-extras/meta-swi-bin/files" name="meta-swi-bin-files-mdm9x15le55" groups="default,proprietary,prebuilt" dest-branch="master" revision="refs/tags/SWI9X15Y_07.12.14.00" clone-depth="1" remote="legato-github-ssh"/>
 
     <!-- mangOH -->
     <project path="meta-mangoh" name="meta-mangoh" dest-branch="master" groups="default,mangoh" revision="99f3e0da53c772163bffa1e03fd4da5c957c559e"/>
