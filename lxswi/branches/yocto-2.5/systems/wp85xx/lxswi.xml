@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <include name="lxswi/branches/yocto-2.5/core.xml"/>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-ref" groups="default,proprietary" revision="refs/heads/yocto-2.5-ref" remote="legato-github-ssh"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-ref" groups="default,proprietary" revision="refs/heads/yocto-2.5-ref" clone-depth="100" remote="legato-github-ssh"/>
     <project path="kernel" name="linux-yocto-3.14" dest-branch="standard/swi-mdm9x15-yocto-1.7-ref" revision="refs/heads/standard/swi-mdm9x15-yocto-1.7-ref" remote="legato-github"/>
     <project path="kernel-meta" name="linux-yocto-3.14" dest-branch="meta-yocto-1.7-ref" revision="refs/heads/meta-yocto-1.7-ref" remote="legato-github"/>
 

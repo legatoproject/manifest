@@ -3,5 +3,5 @@
     <include name="_remotes.xml"/>
 
     <include name="lxswi/branches/yocto-3.1/core.xml"/>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.0-ref" groups="default,proprietary" revision="refs/heads/yocto-3.0-ref" remote="legato-github-ssh"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.0-ref" groups="default,proprietary" revision="refs/heads/yocto-3.0-ref" clone-depth="100" remote="legato-github-ssh"/>
 </manifest>

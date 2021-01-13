@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <include name="lxswi/branches/yocto-2.5-9.x/core.xml"/>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-ref" groups="default,proprietary" revision="4225c560ca9df08b13eb91a80da644a09602bc7d" remote="legato-github-ssh"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-ref" groups="default,proprietary" revision="4225c560ca9df08b13eb91a80da644a09602bc7d" clone-depth="100" remote="legato-github-ssh"/>
     <project name="msm-3.18" path="kernel" dest-branch="mdm9x40le31-ref" revision="refs/tags/LXSWI2.5-9.0+ar759x" remote="legato-github"/>
     <project name="lk" path="lk" dest-branch="mdm9x40le31-swi" revision="refs/tags/LXSWI2.5-9.0+ar759x" remote="legato-github">
         <linkfile src="." dest="mdm9x40/apps_proc/bootable/bootloader/lk" groups="default,internal"/>

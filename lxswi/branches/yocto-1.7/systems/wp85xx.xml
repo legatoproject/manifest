@@ -6,7 +6,7 @@
     <include name="lxswi/branches/yocto-1.7/core.xml"/>
     <project path="kernel" name="linux-yocto-3.14" dest-branch="standard/swi-mdm9x15-yocto-1.7-ref" revision="refs/heads/standard/swi-mdm9x15-yocto-1.7-ref" remote="legato-github"/>
     <project path="kernel-meta" name="linux-yocto-3.14" dest-branch="meta-yocto-1.7-ref" revision="refs/heads/meta-yocto-1.7-ref" remote="legato-github"/>
-    <project path="meta-swi-extras/meta-swi-mdm9x15-bin/files" name="meta-swi-bin-files-mdm9x15le55" dest-branch="lxswi-yocto-1.7" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-1.7" remote="legato-github-ssh"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x15-bin/files" name="meta-swi-bin-files-mdm9x15le55" dest-branch="lxswi-yocto-1.7" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-1.7" clone-depth="1" remote="legato-github-ssh"/>
 
     <!-- mangOH -->
     <project path="meta-mangoh" name="meta-mangoh" dest-branch="master" groups="default,mangoh" revision="refs/heads/master"/>
