@@ -13,14 +13,13 @@
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.2-ref" revision="refs/tags/LXSWI2.2-4.0" remote="legato-github">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-ref" groups="default,proprietary" revision="refs/tags/LXSWI2.2-4.0" remote="legato-github"/>
-    <project path="downloads" name="yocto-downloads" dest-branch="2.2" revision="refs/tags/LXSWI2.2-4.0" clone-depth="1" remote="legato-github"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-ref" groups="default,proprietary" revision="refs/tags/LXSWI2.2-4.0" clone-depth="100" remote="legato-github-ssh"/>
 <!--end 'lxswi/branches/master/core.xml'-->
     <project name="msm-3.18" path="kernel" dest-branch="mdm9x28le20-ref" revision="refs/tags/LXSWI2.2-4.0+wp76xx" remote="legato-github">
         <linkfile src="arch/arm/mach-msm/sierra" dest="mdm9x28/modem_proc/sierra/opensource"/>
         <linkfile src="arch/arm/mach-msm/sierra" dest="mdm9x28/apps_proc/bootable/bootloader/lk/app/aboot/sierra"/>
     </project>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le20" dest-branch="lxswi-master" revision="refs/tags/LXSWI2.2-4.0+wp77xx" remote="legato-github"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le20" dest-branch="lxswi-master" revision="refs/tags/LXSWI2.2-4.0+wp77xx" clone-depth="1"/>
     <!--begin 'legato/branches/master.xml'-->
 
     <!-- Legato: framework -->
@@ -53,19 +52,19 @@
     <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="master" groups="default,legato" revision="1bf924000e7037d5202a467aa8efb9ddba0ec57e" remote="legato-github"/>
 
     <!-- Legato: proprietary apps [proprietary] -->
-    <project path="legato/apps/proprietary/atQmiLinker/bin/wp85" name="legato-Apps-AtQmiLinkerBin-wp85" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="ba59a8bb918456635fab36f5f3b8ffcb0e1ad7b2" remote="legato-github">
+    <project path="legato/apps/proprietary/atQmiLinker/bin/wp85" name="legato-Apps-AtQmiLinkerBin-wp85" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="ba59a8bb918456635fab36f5f3b8ffcb0e1ad7b2" remote="legato-github-ssh">
         <linkfile src="." dest="legato/apps/proprietary/atQmiLinker/bin/wp750x"/>
     </project>
-    <project path="legato/apps/proprietary/atQmiLinker/bin/wp76xx" name="legato-Apps-AtQmiLinkerBin-wp76xx" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="703fe4d800c6c4fb93423fd1e8bf42636f9c71e9" remote="legato-github">
+    <project path="legato/apps/proprietary/atQmiLinker/bin/wp76xx" name="legato-Apps-AtQmiLinkerBin-wp76xx" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="703fe4d800c6c4fb93423fd1e8bf42636f9c71e9" remote="legato-github-ssh">
         <linkfile src="." dest="legato/apps/proprietary/atQmiLinker/bin/wp77xx"/>
     </project>
-    <project path="legato/apps/proprietary/atAirVantage/bin/wp85" name="legato-Apps-AtAirVantageBin-wp85" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="87d2e22a28b36f45b6501e8c52972662dbde2e26" remote="legato-github">
+    <project path="legato/apps/proprietary/atAirVantage/bin/wp85" name="legato-Apps-AtAirVantageBin-wp85" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="87d2e22a28b36f45b6501e8c52972662dbde2e26" remote="legato-github-ssh">
         <linkfile src="." dest="legato/apps/proprietary/atAirVantage/bin/wp750x"/>
     </project>
-    <project path="legato/apps/proprietary/atAirVantage/bin/wp76xx" name="legato-Apps-AtAirVantageBin-wp76xx" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="bd9370b3bbea52fa6f8ce096c66efa8892bb9264" remote="legato-github">
+    <project path="legato/apps/proprietary/atAirVantage/bin/wp76xx" name="legato-Apps-AtAirVantageBin-wp76xx" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="bd9370b3bbea52fa6f8ce096c66efa8892bb9264" remote="legato-github-ssh">
         <linkfile src="." dest="legato/apps/proprietary/atAirVantage/bin/wp77xx"/>
     </project>
-    <project path="legato/apps/proprietary/qmiAirVantage/bin/wp76xx" name="legato-Apps-QmiAirVantageBin-wp76xx" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="4ab19bac7a64a6e9d85db552ec910f2ffacc54b9" remote="legato-github">
+    <project path="legato/apps/proprietary/qmiAirVantage/bin/wp76xx" name="legato-Apps-QmiAirVantageBin-wp76xx" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="4ab19bac7a64a6e9d85db552ec910f2ffacc54b9" remote="legato-github-ssh">
         <linkfile src="." dest="legato/apps/proprietary/qmiAirVantage/bin/wp77xx"/>
     </project>
 

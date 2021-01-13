@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <include name="lxswi/releases/LXSWI2.5-2.0/core.xml"/>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-ref" groups="default,proprietary" revision="refs/tags/LXSWI2.5-2.0" remote="legato-github"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-ref" groups="default,proprietary" revision="refs/tags/LXSWI2.5-2.0" clone-depth="100" remote="legato-github-ssh"/>
     <project name="msm-3.18" path="kernel" dest-branch="mdm9x28le20-ref" revision="refs/tags/LXSWI2.5-2.0+wp76xx" remote="legato-github">
         <linkfile src="arch/arm/mach-msm/sierra" dest="mdm9x28/modem_proc/sierra/opensource" groups="default,internal"/>
         <linkfile src="arch/arm/mach-msm/sierra" dest="lk/app/aboot/sierra"/>
@@ -11,5 +11,5 @@
     <project name="lk" path="lk" dest-branch="mdm9x28le20-swi" revision="refs/tags/LXSWI2.5-2.0+wp76xx" remote="legato-github">
         <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="lxswi-yocto-2.5" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI2.5-2.0" remote="legato-github"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="lxswi-yocto-2.5" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI2.5-2.0" clone-depth="1" remote="legato-github-ssh"/>
 </manifest>

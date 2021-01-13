@@ -10,5 +10,4 @@
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.2-ref" revision="refs/tags/LXSWI2.2-8.0" remote="legato-github">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
-    <project path="downloads" name="yocto-downloads" dest-branch="2.2" groups="default,cache,prebuilt" revision="5869962bb1691b314b0d9f713079efc57f3ba001" clone-depth="1" remote="legato-github"/>
 </manifest>

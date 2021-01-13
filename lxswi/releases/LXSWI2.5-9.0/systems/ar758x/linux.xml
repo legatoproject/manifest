@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <include name="lxswi/releases/LXSWI2.5-9.0/systems/ar758x/lxswi.xml"/>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-ar758x-bin/files" name="meta-swi-bin-files-mdm9x28le201" dest-branch="lxswi-yocto-2.5" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI2.5-9.0" remote="legato-github"/>
-    <project path="meta-swi-ar" name="meta-swi-ar" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-9.0+ar758x" remote="legato-github"/>
-    <project path="meta-swi-ar-extras" name="meta-swi-ar-extras" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-9.0+ar758x" remote="legato-github"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-ar758x-bin/files" name="meta-swi-bin-files-mdm9x28le201" dest-branch="lxswi-yocto-2.5" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI2.5-9.0" clone-depth="1" remote="legato-github-ssh"/>
+    <project path="meta-swi-ar" name="meta-swi-ar" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-9.0+ar758x" remote="legato-github-ssh"/>
+    <project path="meta-swi-ar-extras" name="meta-swi-ar-extras" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-9.0+ar758x" remote="legato-github-ssh"/>
 </manifest>
