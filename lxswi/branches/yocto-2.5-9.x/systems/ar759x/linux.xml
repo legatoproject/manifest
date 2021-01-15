@@ -4,6 +4,6 @@
 
     <include name="lxswi/branches/yocto-2.5-9.x/systems/ar759x/lxswi.xml"/>
     <project path="meta-swi-extras/meta-swi-mdm9x40-ar759x-bin/files" name="meta-swi-bin-files-mdm9x40le31" dest-branch="lxswi-yocto-2.5" groups="default,proprietary,prebuilt" revision="87a0c6cce4175aba71039293b2cd02df5a96e68a" clone-depth="1" remote="legato-github-ssh"/>
-    <project path="meta-swi-ar" name="meta-swi-ar" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-7.0+ar758x" remote="legato-github-ssh"/>
-    <project path="meta-swi-ar-extras" name="meta-swi-ar-extras" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-7.0+ar758x" remote="legato-github-ssh"/>
+    <project path="meta-swi-ar" name="meta-swi-ar" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-7.0+ar758x"/>
+    <project path="meta-swi-ar-extras" name="meta-swi-ar-extras" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-7.0+ar758x"/>
 </manifest>
