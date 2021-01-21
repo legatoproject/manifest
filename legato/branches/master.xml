@@ -76,6 +76,7 @@
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/2.6" remote="legato-github"/>
+    <project path="legato/3rdParty/coremark" name="legato-3rdParty-coremark" dest-branch="master" groups="default,legato" revision="cfa9ab377835911f23d9b0831c7be302ed1f58de" remote="legato-github"/>
     <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/libcbor" name="legato-3rdParty-libcbor" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/lighttpd" name="legato-3rdParty-lighttpd1.4" dest-branch="master" groups="default,legato" revision="refs/tags/lighttpd-1.4.49" remote="legato-github"/>
