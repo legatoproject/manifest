@@ -4,7 +4,7 @@
 
     <include name="lxswi/branches/yocto-3.0/systems/wp77xx/lxswi.xml"/>
 
-    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le20" dest-branch="lxswi-yocto-3.0" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-3.0" clone-depth="1" remote="legato-github-ssh">
+    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le212" dest-branch="lxswi-yocto-3.0" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-3.0" clone-depth="1" remote="legato-github-ssh">
         <linkfile src="." dest="meta-swi-extras/meta-swi-mdm9x28-fx30-bin/files"/>
     </project>
     <project path="meta-swi-wp" name="meta-swi-wp" dest-branch="master" groups="default" revisions="refs/heads/master" remote="legato-github"/>
