@@ -7,6 +7,4 @@
     <project path="meta-swi-extras/meta-swi-mdm9x15-bin/files" name="meta-swi-bin-files-mdm9x15le55" dest-branch="lxswi-yocto-3.0-3.x" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-3.0-3.x" clone-depth="1" remote="legato-github-ssh">
         <linkfile src="." dest="meta-swi-extras/meta-swi-mdm9x15-fx30-bin/files"/>
     </project>
-    <project path="meta-swi-wp" name="meta-swi-wp" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-7.0+wp76xx" remote="legato-github"/>
-    <project path="meta-swi-wp-extras" name="meta-swi-wp-extras" dest-branch="master" groups="default" revisions="refs/heads/master" revision="refs/tags/LXSWI2.5-7.0+wp76xx"/>
 </manifest>
