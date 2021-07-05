@@ -3,5 +3,5 @@
     <include name="_remotes.xml"/>
 
     <!-- Linux -->
-    <include name="lxswi/branches/yocto-3.0/systems/em919x/linux.xml"/>
+    <include name="lxswi/branches/master/systems/em919x/linux.xml"/>
 </manifest>

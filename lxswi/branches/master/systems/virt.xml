@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <!-- Linux -->
-    <include name="lxswi/branches/yocto-3.0/systems/virt/linux.xml"/>
+    <include name="lxswi/branches/master/systems/virt/linux.xml"/>
 
     <!-- Legato -->
     <include name="legato/branches/master.xml"/>

@@ -2,5 +2,5 @@
 <manifest>
     <include name="_remotes.xml"/>
 
-    <include name="lxswi/branches/yocto-3.0/systems/em919x/lxswi.xml"/>
+    <include name="lxswi/branches/master/systems/em919x/lxswi.xml"/>
 </manifest>
