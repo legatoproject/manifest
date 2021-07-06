@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <!-- Linux -->
-    <include name="lxswi/branches/master/systems/wp76xx/linux.xml"/>
+    <include name="lxswi/branches/yocto-3.1/systems/wp76xx/linux.xml"/>
 
     <!-- Legato -->
     <include name="legato/branches/master.xml"/>
