@@ -20,5 +20,7 @@
     <project name="lk" path="lk" dest-branch="mdm9x28le20-swi" revision="refs/tags/SWI9X06Y_02.33.00.00" remote="legato-github">
         <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.37.07.00" clone-depth="1" remote="legato-github-ssh"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.37.07.00" clone-depth="1" remote="legato-github-ssh">
+        <linkfile src="." dest="meta-swi-extras/meta-swi-mdm9x28-fx30-bin/files"/>
+    </project>
 </manifest>
