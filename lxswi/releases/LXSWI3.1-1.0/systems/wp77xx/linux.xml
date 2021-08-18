@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/releases/LXSWI3.1-1.0/systems/wp77xx/lxswi.xml"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le212" dest-branch="lxswi-yocto-3.1" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI3.1-1.0" clone-depth="1" remote="legato-github-ssh">
+        <linkfile src="." dest="meta-swi-extras/meta-swi-mdm9x28-fx30-bin/files"/>
+    </project>
+</manifest>
