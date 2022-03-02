@@ -55,6 +55,7 @@
     </project>
 
     <!-- Legato: imgdiff [proprietary] -->
+    <project path="legato/framework/tools/imgdiff/src" name="legato-Imgdiff" dest-branch="master" groups="default,legato,external,proprietary" revision="refs/heads/master" remote="legato-github-ssh"/>
     <project path="legato/framework/tools/imgdiff/bin" name="legato-Imgdiff-Bin" dest-branch="master" groups="notdefault,legato,external,proprietary" revision="refs/heads/master" remote="legato-github-ssh"/>
 
     <!-- LWM2M Core -->
