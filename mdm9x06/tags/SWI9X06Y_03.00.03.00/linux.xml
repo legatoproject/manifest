@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <project path="poky" name="poky" upstream="refs/heads/dunfell" revision="ea2d42c2b110cb953dad051b3720d85575bd2b82" dest-branch="dunfell" remote="legato-github"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/dunfell" revision="7889158dcd187546fc5e99fd81d0779cad3e8d17" dest-branch="dunfell" remote="legato-github"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/dunfell" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" dest-branch="dunfell" remote="legato-github"/>
+    <!-- SWI -->
+    <project path="meta-swi" name="meta-swi" dest-branch="yocto-3.1-ref" revision="90ac50c15e8026143b1b45e8946aa5a2a612de97" remote="legato-github">
+        <linkfile src="repo.mk" dest="Makefile"/>
+    </project>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.1-ref" groups="default,proprietary" revision="3d591421cdc28af2a5fc42db150862c4bacfd080"/>
+    <project name="msm-4.14" path="kernel" dest-branch="mdm9x28le212-ref" revision="fb2e3c7f9f638a6507d6b03281731a6be7015f37" remote="legato-github">
+        <linkfile src="arch/arm/mach-msm/sierra" dest="mdm9x28/modem_proc/sierra/opensource" groups="default,internal"/>
+        <linkfile src="arch/arm/mach-msm/sierra" dest="lk/app/aboot/sierra"/>
+    </project>
+    <project name="lk" path="lk" dest-branch="mdm9x28le20-ref" revision="2d556362033eefb9f50a2ba2ec79554559e8ba90" remote="legato-github">
+        <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
+    </project>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x06le212" dest-branch="wp77-yocto-3.1" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X06Y_03.00.03.00" clone-depth="1" remote="legato-github-ssh">
+        <linkfile src="." dest="meta-swi-extras/meta-swi-mdm9x28-fx30-bin/files"/>
+    </project>
+</manifest>
