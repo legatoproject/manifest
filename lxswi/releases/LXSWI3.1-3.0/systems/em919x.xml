@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Linux -->
+    <include name="lxswi/releases/LXSWI3.1-3.0/systems/em919x/linux.xml"/>
+</manifest>
