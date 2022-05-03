@@ -4,7 +4,7 @@
 
     <!-- Yocto -->
     <project path="poky" name="poky" upstream="refs/heads/kirkstone" revision="refs/heads/kirkstone" remote="legato-github"/>
-    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/master" revision="refs/heads/master" remote="legato-github"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/kirkstone" revision="refs/heads/kirkstone" remote="legato-github"/>
     <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/kirkstone" revision="refs/heads/kirkstone" remote="legato-github"/>
 
     <!-- SWI -->
