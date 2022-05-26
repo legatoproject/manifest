@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <project path="poky" name="poky" upstream="refs/heads/dunfell" revision="refs/tags/dunfell-23.0.14" dest-branch="dunfell" remote="legato-github"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/dunfell" revision="ec978232732edbdd875ac367b5a9c04b881f2e19" dest-branch="dunfell" remote="legato-github"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/dunfell" revision="refs/tags/3.1_M3" dest-branch="dunfell" remote="legato-github"/>
+
+    <!-- SWI -->
+    <project path="meta-swi" name="meta-swi" dest-branch="yocto-3.1-ref" revision="196fca78a8e6fd5ab0e67da9b82bd5af929c1996">
+        <linkfile src="repo.mk" dest="Makefile"/>
+    </project>
+</manifest>
