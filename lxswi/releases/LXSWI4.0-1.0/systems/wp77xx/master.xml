@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- LeTP -->
+    <project path="letp" name="LeTP" dest-branch="master" groups="default,letp" revision="d7901e2e88912794272c690ce3268a8a14182278" remote="legato-github"/>
+
+</manifest>
