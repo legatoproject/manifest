@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Linux -->
+    <include name="mdm9x28/tags/SWI9X07Y_02.37.10.02/linux.xml"/>
+
+    <!-- Legato -->
+    <include name="legato/releases/19.11.6/legato.xml"/>
+</manifest>
