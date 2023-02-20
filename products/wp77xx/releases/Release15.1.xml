@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <include name="mdm9x06/tags/SWI9X06Y_03.00.13.00/linux.xml"/>
+
+    <!-- Legato -->
+    <include name="legato/tags/21.05.0/legato.xml"/>
+
+    <!-- Product -->
+    <product name="wp"/>
+</manifest>
