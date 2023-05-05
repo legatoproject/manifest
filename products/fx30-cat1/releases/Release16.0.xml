@@ -2,7 +2,7 @@
 <manifest>
     <include name="_remotes.xml"/>
     <!-- Yocto -->
-    <include name="mdm9x06/tags/SWI9X07Y_02.37.10.04/linux.xml"/>
+    <include name="mdm9x28/tags/SWI9X07Y_02.37.10.04/linux.xml"/>
     <remove-project name="meta-swi"/>
     <project name="meta-swi" path="meta-swi" revision="refs/tags/SWI9X07Y_02.37.10.04" remote="legato-github"/>
     <remove-project name="meta-swi-wp"/>
