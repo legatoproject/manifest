@@ -4,20 +4,20 @@
 
     <!-- Yocto -->
     <!-- Based on "lxswi/branches/yocto-2.5/core.xml" -->
-    <project path="poky" name="poky" revision="refs/tags/LXSWI2.5-11.0" remote="legato-github"/>
-	<project path="meta-openembedded" name="meta-openembedded" revision="refs/tags/LXSWI2.5-1.0" remote="legato-github"/>
-	<project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" revision="refs/tags/LXSWI2.5-10.0" remote="legato-github"/>
+    <project path="poky" name="external/yocto/poky" revision="cbb677e9a09d5dad34404a851f7c23aeb5122465"/>
+	<project path="meta-openembedded" name="external/openembedded/meta-openembedded" revision="8760facba1bceb299b3613b8955621ddaa3d4c3f"/>
+	<project path="meta-gplv2" name="external/yocto/meta-gplv2" revision="813b7d2b5573d8591c6cd8087b326f0a0703d6b9"/>
 	<!--  SWI  -->
-	<project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-swi-wp76xx-SWI9X07Y_02.37.07.00-r16" revision="refs/tags/SWI9X07Y_02.37.03.90" remote="legato-github">
+	<project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-swi-wp76xx-SWI9X07Y_02.37.07.00-r16" revision="f140b688c2290b2aa29cc70db166d24a32852cf1">
 		<linkfile src="repo.mk" dest="Makefile"/>
 	</project>
-	<project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.35.00.00" clone-depth="100" remote="legato-github-ssh"/>
+	<project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="d40fca3b5ef7c7df931e41117a2df9bbbe5caac3"/>
 	<!--  end branched core.xml projects  -->
-	<project name="msm-3.18" path="kernel" dest-branch="mdm9x28le20-swi-wp76xx-SWI9X07Y_02.37.07.00-r16" revision="refs/tags/SWI9X07Y_02.37.08.00" remote="legato-github">
+	<project name="external/caf/kernel/msm-3.18" path="kernel" dest-branch="mdm9x28le20-swi-wp76xx-SWI9X07Y_02.37.07.00-r16" revision="e760d583fbd7b4c358d8f0959e1ee70a40552968">
 		<linkfile src="arch/arm/mach-msm/sierra" dest="lk/app/aboot/sierra"/>
 	</project>
-	<project name="lk" path="lk" dest-branch="mdm9x28le20-swi-SWI9X07Y_02.37.07.00-r16" revision="refs/tags/SWI9X07Y_02.37.08.00" remote="legato-github">
+	<project name="external/caf/kernel/lk" path="lk" dest-branch="mdm9x28le20-swi-SWI9X07Y_02.37.07.00-r16" revision="9340d16192d723358c21b6b137a56c0f401ec8cb">
 		<linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
 	</project>
-	<project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.37.10.04" clone-depth="1" remote="legato-github-ssh"/>
+	<project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files/mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.37.10.03"/>
 </manifest>
