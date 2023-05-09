@@ -5,8 +5,6 @@
     <include name="mdm9x28/tags/SWI9X07Y_02.37.10.04/linux.xml"/>
     <remove-project name="meta-swi"/>
     <project name="meta-swi" path="meta-swi" revision="refs/tags/SWI9X07Y_02.37.10.04" remote="legato-github"/>
-    <remove-project name="meta-swi-wp"/>
-    <project name="meta-swi-wp" path="meta-swi-wp" revision="refs/tags/SWI9X07Y_02.37.10.04"/>
 
     <!-- Legato -->
     <include name="legato/tags/19.11.5/legato.xml"/>
