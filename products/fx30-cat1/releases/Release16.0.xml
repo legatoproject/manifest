@@ -7,7 +7,7 @@
     <project name="meta-swi" path="meta-swi" revision="refs/tags/SWI9X07Y_02.37.10.04" remote="legato-github"/>
 
     <!-- Legato -->
-    <include name="legato/tags/19.11.5/legato.xml"/>
+    <include name="legato/releases/19.11.5/legato.xml"/>
 
     <!-- Product -->
     <product name="fx30"/>
