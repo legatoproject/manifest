@@ -5,7 +5,7 @@
     <!-- Yocto -->
     <project path="poky" name="poky" upstream="refs/heads/dunfell" revision="refs/tags/LXSWI3.1-3.0" dest-branch="dunfell" remote="legato-github"/>
     <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/dunfell" revision="refs/tags/LXSWI3.1-3.0" dest-branch="dunfell" remote="legato-github"/>
-    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/dunfell" revision="refs/tags/LXSWI3.1-3.0" dest-branch="dunfell" remote="legato-github"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/dunfell" revision="refs/tags/3.1_M3" dest-branch="dunfell" remote="legato-github"/>
 
     <!-- SWI -->
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-3.1-ref" revision="refs/tags/LXSWI3.1-3.0" remote="legato-github">
