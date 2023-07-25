@@ -65,6 +65,13 @@
 
     <!-- AirVantage LWM2M Client -->
     <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="21.05-release" groups="default,legato,lwm2m" revision="refs/tags/21.05.2.rc2" remote="legato-github"/>
+    <project path="legato/apps/platformServices/airVantageConnector/bin/wp76xx" name="legato-Service-AirVantageConnectorBin-wp76xx" dest-branch="21.05-release" groups="default,legato,lwm2m" revision="refs/tags/21.05.2.rc2">
+        <linkfile src="." dest="legato/apps/platformServices/airVantageConnector/bin/wp77xx"/>
+    </project>
+    <project path="legato/apps/platformServices/bin/wp76xx" name="legato-Service-SecStoreBin-wp76xx" dest-branch="21.05-release" groups="default,legato,lwm2m" revision="refs/tags/21.05.2.rc2">
+        <linkfile src="." dest="legato/apps/platformServices/bin/wp77xx"/>
+    </project>
+
 
     <!-- DataHub Service -->
     <project path="legato/apps/sample/dataHub" name="legato-Service-DataHub" dest-branch="21.05-release" groups="default,legato" revision="refs/tags/21.05.2.rc2" remote="legato-github"/>

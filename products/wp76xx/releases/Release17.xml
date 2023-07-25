@@ -6,5 +6,5 @@
     <include name="mdm9x28/tags/SWI9X07Y_03.01.07.00/linux.xml"/>
 
     <!-- Legato -->
-    <include name="legato/tags/21.05.2.rc2/legato.xml"/>
+    <include name="legato/releases/21.05.2.rc2/legato.xml"/>
 </manifest>
