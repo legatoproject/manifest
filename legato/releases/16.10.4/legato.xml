@@ -6,9 +6,9 @@
     <project path="legato" name="legato-af" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
 
     <!-- Legato: PA Open-Source -->
-    <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
-    <project path="legato/platformAdaptor/audio" name="legato-PlatformAdaptor-Audio" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
-    <project path="legato/platformAdaptor/simu" name="legato-PlatformAdaptor-Simu" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
+    <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.0" remote="legato-github"/>
+    <project path="legato/platformAdaptor/audio" name="legato-PlatformAdaptor-Audio" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.0" remote="legato-github"/>
+    <project path="legato/platformAdaptor/simu" name="legato-PlatformAdaptor-Simu" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.0" remote="legato-github"/>
 
     <!-- Legato: PA QMI (sources) -->
 
@@ -23,16 +23,16 @@
     <project path="legato/platformAdaptor/qmi/bin/wp76xx" name="legato-PlatformAdaptor-QmiBin-wp76xx" dest-branch="16.10-maintenance.1" groups="default,legato,external" revision="refs/tags/16.10.4" remote="legato-github"/>
 
     <!-- Legato: modules -->
-    <project path="legato/modules/WiFi" name="legato-WiFi" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
-    <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
+    <project path="legato/modules/WiFi" name="legato-WiFi" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.3" remote="legato-github"/>
+    <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="16.10-maintenance.1" groups="default,legato" revision="refs/tags/16.10.0" remote="legato-github"/>
 
     <!-- Legato: doc management -->
 
     <!-- Legato: QCT headers -->
 
     <!-- Legato: 3rd Party -->
-    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
-    <project path="legato/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
-    <project path="legato/3rdParty/wakaama/examples/shared/tinydtls" name="tinydtls" groups="default,legato" revision="refs/tags/16.10.4" remote="legato-github"/>
+    <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/tags/16.07.2.9xxx" remote="legato-github"/>
+    <project path="legato/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato" revision="refs/tags/16.10.0" remote="legato-github"/>
+    <project path="legato/3rdParty/wakaama/examples/shared/tinydtls" name="tinydtls" groups="default,legato" revision="refs/tags/16.07.2.9xxx" remote="legato-github"/>
 
 </manifest>

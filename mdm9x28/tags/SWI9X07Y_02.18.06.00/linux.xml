@@ -20,5 +20,5 @@
     <project name="lk" path="lk" dest-branch="mdm9x28le20-swi" revision="refs/tags/LXSWI2.2-6.0+wp76xx" remote="legato-github">
         <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x28le20" groups="default,proprietary,prebuilt" revision="fa658b3756d99c7ac0e2492921d20615a6679f4b"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files/mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="fa658b3756d99c7ac0e2492921d20615a6679f4b"/>
 </manifest>
