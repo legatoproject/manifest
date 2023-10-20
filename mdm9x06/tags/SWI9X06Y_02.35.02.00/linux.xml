@@ -11,7 +11,7 @@
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-swi-wp76xx" revision="refs/tags/SWI9X06Y_02.35.02.00" remote="legato-github">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_00.00.00.00" clone-depth="100" remote="legato-github-ssh"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.35.00.00" clone-depth="100" remote="legato-github-ssh"/>
     <!-- end branched core.xml projects -->
 
     <project name="msm-3.18" path="kernel" dest-branch="mdm9x28le20-swi-wp76xx" revision="refs/tags/SWI9X06Y_02.35.00.00" remote="legato-github">
