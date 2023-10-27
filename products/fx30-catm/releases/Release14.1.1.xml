@@ -3,10 +3,6 @@
     <include name="_remotes.xml"/>
     <!-- Yocto -->
     <include name="mdm9x06/tags/SWI9X06Y_02.36.08.10/linux.xml"/>
-    <remove-project name="meta-swi"/>
-    <project name="meta-swi" path="meta-swi" revision="refs/tags/SWI9X06Y_02.36.08.06" remote="legato-github"/>
-    <remove-project name="meta-swi-bin-files-mdm9x06le20"/>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-fx30-bin/files" name="meta-swi-bin-files-mdm9x06le20" revision="refs/tags/SWI9X06Y_02.36.08.06" clone-depth="1"/>
 
     <!-- Legato -->
     <include name="legato/tags/19.11.5/legato.xml"/>
