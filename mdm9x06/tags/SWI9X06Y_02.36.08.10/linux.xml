@@ -8,7 +8,7 @@
     <project path="meta-openembedded" name="meta-openembedded" revision="refs/tags/LXSWI2.5-1.0" remote="legato-github"/>
     <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" revision="refs/tags/LXSWI2.5-10.0" remote="legato-github"/>
     <!-- SWI -->
-    <project path="meta-swi" name="meta-swi" dest-branch="mdm9x06r20_2.5_wp77xx.r14.2bp2" revision="refs/tags/SWI9X06Y_00.00.00.00" remote="legato-github">
+    <project path="meta-swi" name="meta-swi" dest-branch="mdm9x06r20_2.5_wp77xx.r14.2bp2" revision="c028ef81079341d837a0e9f75347e2521cc1a064">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
     <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_00.00.00.00" clone-depth="100" remote="legato-github-ssh"/>
