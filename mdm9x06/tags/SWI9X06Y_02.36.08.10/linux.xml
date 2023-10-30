@@ -8,17 +8,17 @@
     <project path="meta-openembedded" name="meta-openembedded" revision="refs/tags/LXSWI2.5-1.0" remote="legato-github"/>
     <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" revision="refs/tags/LXSWI2.5-10.0" remote="legato-github"/>
     <!-- SWI -->
-    <project path="meta-swi" name="meta-swi" dest-branch="mdm9x06r20_2.5_wp77xx.r14.2bp2" revision="c028ef81079341d837a0e9f75347e2521cc1a064">
+    <project path="meta-swi" name="meta-swi" dest-branch="mdm9x06r20_2.5_wp77xx.r14.2bp2" revision="refs/tags/SWI9X06Y_02.36.08.10">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_00.00.00.00" clone-depth="100" remote="legato-github-ssh"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.5-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.36.08.10" clone-depth="100" remote="legato-github-ssh"/>
     <!-- end branched core.xml projects -->
 
-    <project name="msm-3.18" path="kernel" dest-branch="mdm9x06r20_2.5_wp77xx.r14.2bp2" revision="refs/tags/SWI9X06Y_00.00.00.00" remote="legato-github">
+    <project name="msm-3.18" path="kernel" dest-branch="mdm9x06r20_2.5_wp77xx.r14.2bp2" revision="refs/tags/SWI9X06Y_02.36.08.10" remote="legato-github">
         <linkfile src="arch/arm/mach-msm/sierra" dest="mdm9x28/modem_proc/sierra/opensource" groups="default,internal"/>
         <linkfile src="arch/arm/mach-msm/sierra" dest="lk/app/aboot/sierra"/>
     </project>
-    <project name="lk" path="lk" dest-branch="mdm9x06r20_2.5_wp77xx.r14.2bp2" revision="refs/tags/SWI9X06Y_00.00.00.00" remote="legato-github">
+    <project name="lk" path="lk" dest-branch="mdm9x06r20_2.5_wp77xx.r14.2bp2" revision="refs/tags/SWI9X06Y_02.36.08.10" remote="legato-github">
         <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>
     <project path="meta-swi-extras/meta-swi-mdm9x28-wp-bin/files" name="meta-swi-bin-files-mdm9x06le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X06Y_02.36.08.10" clone-depth="1" remote="legato-github-ssh">
