@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <!-- Yocto -->
-    <include name="mdm9x06/tags/SWI9X06Y_03.00.15.00/linux.xml"/>
+    <include name="mdm9x06/tags/SWI9X06Y_03.00.15.03/linux.xml"/>
 
     <!-- Legato -->
     <include name="legato/tags/21.05.4/legato.xml"/>
