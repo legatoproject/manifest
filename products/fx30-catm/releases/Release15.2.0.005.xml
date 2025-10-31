@@ -3,12 +3,6 @@
     <include name="_remotes.xml"/>
     <!-- Yocto -->
     <include name="mdm9x06/tags/SWI9X06Y_03.00.15.03/linux.xml"/>
-    <remove-project name="meta-swi"/>
-    <project name="meta-swi" path="meta-swi" revision="refs/tags/SWI9X06Y_03.00.14.00" remote="legato-github"/>
-    <remove-project name="meta-swi-wp"/>
-    <project name="meta-swi-wp" path="meta-swi-wp" revision="refs/tags/SWI9X06Y_03.00.14.00"/>
-     <remove-project name="meta-swi-bin-files-mdm9x06le212"/>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-fx30-bin/files" name="meta-swi-bin-files-mdm9x06le212" dest-branch="wp77-yocto-3.1" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X06Y_03.00.14.00" clone-depth="1" remote="legato-github-ssh"/>
 
     <!-- Legato -->
     <include name="legato/tags/21.05.4/legato.xml"/>
